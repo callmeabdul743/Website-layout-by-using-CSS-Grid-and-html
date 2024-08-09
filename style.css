@@ -18,7 +18,7 @@ body{
     grid-gap: 10px;
     height: 100vh;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 50px 2fr 2fr 1fr;
+    grid-template-rows: 50px 1.5fr 1.5fr 1.9fr;
 }
 .items{
     background-color: #ddd;
@@ -87,4 +87,23 @@ body{
     margin-top: 15px;
     padding:7px 15px;
     color:#ddd;
+}
+.item8, .item9, .item10, .item11{
+    padding:30px;
+    display: grid;
+    /* justify-content: center; */
+    align-items: center;
+}
+.item8 i, .item9 i, .item10 i, .item11 i{
+    justify-self: center;
+    font-size: 48px;
+    color:#333 ;
+}
+.item8 h3, .item9 h3, .item10 h3, .item11 h3{
+    justify-self: center;
+    font-size: 22px;
+}
+.item8 p, .item9 p, .item10 p, .item11 p{
+    text-align: center;
+    font-size: 15px;
 }
